@@ -1,0 +1,47 @@
+PhantomJS is launching GhostDriver...
+[INFO  - 2015-04-25T23:32:05.507Z] GhostDriver - Main - running on port 58285
+[INFO  - 2015-04-25T23:32:05.953Z] Session [48ad48b0-eba3-11e4-a234-6d4fb0528c3c] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-04-25T23:32:05.953Z] Session [48ad48b0-eba3-11e4-a234-6d4fb0528c3c] - page.customHeaders:  - {}
+[INFO  - 2015-04-25T23:32:05.953Z] Session [48ad48b0-eba3-11e4-a234-6d4fb0528c3c] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-04-25T23:32:05.953Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 48ad48b0-eba3-11e4-a234-6d4fb0528c3c
+[INFO  - 2015-04-25T23:37:06.623Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-25T23:42:06.622Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-25T23:49:38.411Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-25T23:54:38.882Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T00:00:10.039Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T00:05:23.014Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T03:19:12.508Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T03:24:13.149Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T03:29:15.268Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T03:36:12.616Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T03:42:05.812Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T03:47:59.114Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T03:53:31.594Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T03:59:18.037Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T03:17:29.520Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T03:22:53.137Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T03:28:59.654Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T03:34:43.773Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+19Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T02:21:38.190Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T02:27:03.618Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T02:32:03.495Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T02:37:03.495Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T03:30:18.163Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T03:38:30.054Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T03:44:20.141Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T03:49:21.204Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T03:55:43.745Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T04:01:02.898Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+   at :/ghostdriver/request_handlers/request_handler.js:138\n    at :/ghostdriver/request_handlers/session_request_handler.js:403\n    at :/ghostdriver/request_handlers/session_request_handler.js:141\n    at :/ghostdriver/request_handlers/request_handler.js:61\n    at :/ghostdriver/request_handlers/router_request_handler.js:78","stackArray":[{"sourceURL":":/ghostdriver/request_handlers/request_handler.js","line":93},{"sourceURL":":/ghostdriver/request_handlers/request_handler.js","line":79},{"sourceURL":":/ghostdriver/request_handlers/request_handler.js","line":138},{"sourceURL":":/ghostdriver/request_handlers/session_request_handler.js","line":403},{"sourceURL":":/ghostdriver/request_handlers/session_request_handler.js","line":141},{"sourceURL":":/ghostdriver/request_handlers/request_handler.js","line":61},{"sourceURL":":/ghostdriver/request_handlers/router_request_handler.js","line":78}]}
+[INFO  - 2015-04-26T02:57:29.934Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T03:02:34.721Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T03:07:36.120Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2015-04-26T03:11:58.892Z] RouterReqHand - _handle.error - {"message":"String contained an illegal UTF-16 sequence.","line":93,"sourceId":140079690922880,"sourceURL":":/ghostdriver/request_handlers/request_handler.js","stack":"URIError: String contained an illegal UTF-16 sequence.\n    at :/ghostdriver/request_handlers/request_handler.js:93\n    at :/ghostdriver/request_handlers/request_handler.js:79\n    at :/ghostdriver/request_handlers/request_handler.js:138\n    at :/ghostdriver/request_handlers/session_request_handler.js:403\n    at :/ghostdriver/request_handlers/session_request_handler.js:141\n    at :/ghostdriver/request_handlers/request_handler.js:61\n    at :/ghostdriver/request_handlers/router_request_handler.js:78","stackArray":[{"sourceURL":":/ghostdriver/request_handlers/request_handler.js","line":93},{"sourceURL":":/ghostdriver/request_handlers/request_handler.js","line":79},{"sourceURL":":/ghostdriver/request_handlers/request_handler.js","line":138},{"sourceURL":":/ghostdriver/request_handlers/session_request_handler.js","line":403},{"sourceURL":":/ghostdriver/request_handlers/session_request_handler.js","line":141},{"sourceURL":":/ghostdriver/request_handlers/request_handler.js","line":61},{"sourceURL":":/ghostdriver/request_handlers/router_request_handler.js","line":78}]}
+[INFO  - 2015-04-26T03:12:36.593Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T03:17:37.059Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T03:22:37.058Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T03:27:42.176Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T03:32:49.136Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2015-04-26T03:37:49.205Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW

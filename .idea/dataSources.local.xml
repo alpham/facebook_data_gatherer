@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="SQLite -" uuid="f19a197a-038a-409f-961c-16168eb8d768">
+      <secret-storage>master_key</secret-storage>
+    </data-source>
+    <data-source name="Django default" uuid="2bef9dae-de0d-47c7-a7fa-7e999dc8634e" />
+    <data-source name="PostgreSQL - elliottest2@localhost" uuid="729780ba-adb8-4011-97d8-c661c0f99329">
+      <secret-storage>master_key</secret-storage>
+      <user-name>ahmed</user-name>
+      <schema-pattern>elliottest2.pg_catalog elliottest2.public</schema-pattern>
+      <default-schemas>elliottest2.pg_catalog elliottest2.public</default-schemas>
+    </data-source>
+  </component>
+</project>
