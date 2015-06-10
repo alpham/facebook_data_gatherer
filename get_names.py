@@ -1,4 +1,4 @@
-from selenium.webdriver import Chrome as WDriver
+from selenium.webdriver import PhantomJS as WDriver
 from selenium.webdriver.common.keys import Keys
 import logging
 import threading
@@ -17,13 +17,17 @@ class FindNameRobot:
         self.done_ids = set()
         self.error_ids = set()
         self.lock = threading.Lock()
+        self.dbLock = threading.Lock()
         logging.debug("connect to the db")
         self.client = pyorient.OrientDB("localhost", 2424)
         session_id = self.client.connect("root", "root")
         self.client.db_open("SampleDataV2", "root", "root")
         logging.debug("getting the ids from the db")
-        for record in self.client.command("select id from ContentOwnerABS where True limit=25"):
-            self.remain_ids.add(record.id)
+        for record in self.client.command("select id from ContentOwnerABS where True limit=-1"):
+            if 'id' in dir(record):
+                self.remain_ids.add(record.id)
+            elif 'fbid' in dir(record):
+                self.remain_ids.add(record.fbid)
 
         logging.debug("new %s ids to manipulate..." % str(len(self.remain_ids)))
 
@@ -68,11 +72,13 @@ class FindNameRobot:
         robot.get('http://fb.com/' + str(id))
         user_name = robot.title
         logging.debug("updating record with id = %s" % str(id))
+        self.dbLock.acquire()
         self.client.command('UPDATE ContentOwnerABS set fbName="%s" WHERE id="%s"' % (str(user_name), str(id)))
+        self.dbLock.release()
 
 
 if __name__ == '__main__':
     obj = FindNameRobot()
-    obj.main(5)
+    obj.main(15)
     logging.debug("closing db connection")
     obj.client.db_close()
