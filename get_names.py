@@ -79,6 +79,6 @@ class FindNameRobot:
 
 if __name__ == '__main__':
     obj = FindNameRobot()
-    obj.main(15)
+    obj.main(5)
     logging.debug("closing db connection")
     obj.client.db_close()

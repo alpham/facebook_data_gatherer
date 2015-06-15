@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../odoo-8.0/addons/.idea/addons.iml" filepath="$PROJECT_DIR$/../odoo-8.0/addons/.idea/addons.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Odoo_dev/dev_addons/.idea/am_addons.iml" filepath="$PROJECT_DIR$/../Odoo_dev/dev_addons/.idea/am_addons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Odoo_dev/.idea/Odoo_dev.iml" filepath="$PROJECT_DIR$/../Odoo_dev/.idea/Odoo_dev.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/facebook_data_gatherer.iml" filepath="$PROJECT_DIR$/.idea/facebook_data_gatherer.iml" />
       <module fileurl="file://$PROJECT_DIR$/../odoo-8.0-20150208/.idea/odoo-8.0-20150208.iml" filepath="$PROJECT_DIR$/../odoo-8.0-20150208/.idea/odoo-8.0-20150208.iml" />
       <module fileurl="file://$PROJECT_DIR$/../django/odoomodule/.idea/odoomodule.iml" filepath="$PROJECT_DIR$/../django/odoomodule/.idea/odoomodule.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../odoo-8.0/openerp/.idea/openerp.iml" filepath="$PROJECT_DIR$/../odoo-8.0/openerp/.idea/openerp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../django/offerswebsite/.idea/offerswebsite.iml" filepath="$PROJECT_DIR$/../django/offerswebsite/.idea/offerswebsite.iml" />
     </modules>
   </component>
 </project>

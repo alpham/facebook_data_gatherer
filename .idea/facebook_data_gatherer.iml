@@ -10,10 +10,9 @@
     <orderEntry type="module" module-name="openacademy" />
     <orderEntry type="module" module-name="openacademy" />
     <orderEntry type="module" module-name="odoo-8.0-20150208" />
-    <orderEntry type="module" module-name="am_addons" />
     <orderEntry type="module" module-name="odoomodule" />
-    <orderEntry type="module" module-name="addons" />
-    <orderEntry type="module" module-name="openerp" />
+    <orderEntry type="module" module-name="offerswebsite" />
+    <orderEntry type="module" module-name="Odoo_dev" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
