@@ -13,14 +13,14 @@
                         <li>
                             <div class="col-md-12">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="insert sentence...">
+                                    <input type="text" class="form-control" placeholder="insert sentence..." id="sentenc-input">
                                 </div>
                             </div>
 
                         </li>
                     </ul>
 							 <span class="input-group-btn">
-						        <button class="btn btn-default" type="button">Classify</button>
+						        <button class="btn btn-default" type="button" id="sentence-button">Classify</button>
 						     </span>
                 </div>
             </div>
@@ -33,11 +33,11 @@
                         <li>
                             <div class="col-md-12">
                                 <div class="input-group">
-                                    <input type="text" class="form-control col-md-8" readonly>
+                                    {#                                    <input type="text" class="form-control col-md-8" readonly>#}
 
 							                <span class="input-group-btn col-md-4">
 							                    <span class="btn btn-primary btn-file">
-							                        Add File &hellip; <input type="file" multiple>
+							                        Add File &hellip; <input type="file" multiple id="file-input">
 							                    </span>
 							                </span>
 
@@ -46,7 +46,7 @@
                         </li>
                         <li>
 									<span class="input-group-btn">
-						        <button class="btn btn-default" type="button">Classify</button>
+						        <button class="btn btn-default" type="button" id="file-button">Classify</button>
 						     </span>
                         </li>
                     </ul>
@@ -63,14 +63,14 @@
                         <li>
                             <div class="col-md-12">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="insert post link ...">
+                                    <input type="text" class="form-control" placeholder="insert post link ..." id="post-url-input">
                                 </div>
                             </div>
 
                         </li>
                     </ul>
 							 <span class="input-group-btn">
-						        <button class="btn btn-default" type="button">Classify</button>
+						        <button class="btn btn-default" type="button" id="post-url-button">Classify</button>
 						     </span>
                 </div>
             </div>
