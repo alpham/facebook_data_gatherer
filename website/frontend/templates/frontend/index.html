@@ -1,361 +1,363 @@
+{% load static %}
+{% load frontend_layout %}
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-    	
-		<meta charset="utf-8">
-		<title> Arabic Social Media Sentiment Analysis</title>
-		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="keywords" content="">
-		<meta name="description" content="">
+{% layout_head %}
 
-		<!-- animate css -->
-		<link rel="stylesheet" href="css/animate.min.css">
-		<!-- bootstrap css -->
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<!-- font-awesome -->
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<!-- google font -->
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700,800' rel='stylesheet' type='text/css'>
+<body>
+<!-- start preloader -->
+<div class="preloader">
+    <div class="sk-spinner sk-spinner-rotating-plane"></div>
+</div>
+<!-- end preloader -->
+<!-- start navigation -->
+<nav class="navbar navbar-default navbar-fixed-top templatemo-nav" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon icon-bar"></span>
+                <span class="icon icon-bar"></span>
+                <span class="icon icon-bar"></span>
+            </button>
+            <img src="{% static 'images/LOGO.jpg' %}" class="img-responsive" alt="member img">
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right text-uppercase">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#feature">Features</a></li>
+                <li><a href="#pricing">Demo</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- end navigation -->
 
-		<!-- custom css -->
-		<link rel="stylesheet" href="css/templatemo-style.css">
-		<!-- extra css -->
-		<link rel="stylesheet" type="text/css" href="css/extra.css">
+<!-- start home -->
+<section id="home">
+    <div class="overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10 wow fadeIn" data-wow-delay="0.3s">
+                    <h1 class="text-upper">What's Arabic Social Media Sentiment Analysis</h1>
 
-	</head>
-	<body>
-		<!-- start preloader -->
-		<div class="preloader">
-			<div class="sk-spinner sk-spinner-rotating-plane"></div>
-    	 </div>
-		<!-- end preloader -->
-		<!-- start navigation -->
-		<nav class="navbar navbar-default navbar-fixed-top templatemo-nav" role="navigation">
-			<div class="container">
-				<div class="navbar-header">
-					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="icon icon-bar"></span>
-						<span class="icon icon-bar"></span>
-						<span class="icon icon-bar"></span>
-					</button>
-					<img src="images/LOGO.jpg" class="img-responsive" alt="member img">
-				</div>
-				<div class="collapse navbar-collapse">
-					<ul class="nav navbar-nav navbar-right text-uppercase">
-						<li><a href="#home">Home</a></li>
-						<li><a href="#feature">Features</a></li>
-						<li><a href="#pricing">Demo</a></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-		<!-- end navigation -->
+                    <p class="tm-white">we now have a huge volume of opinionated arabic data in the social media on the
+                        Web. Arabic Social Media Sentiment Analysis is focuses on opinions which express positive or
+                        negative sentiments. Helping you with simple and awesome visualization for data analysis.
+                        <img src="{% static 'images/dataChart-img.png' %}" class="img-responsive" alt="home img">
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end home -->
 
-		<!-- start home -->
-		<section id="home">
-			<div class="overlay">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-1"></div>
-						<div class="col-md-10 wow fadeIn" data-wow-delay="0.3s">
-							<h1 class="text-upper">What's Arabic Social Media Sentiment Analysis</h1>
-							<p class="tm-white">we now have a huge volume of opinionated arabic data in the social media on the Web. Arabic Social Media Sentiment Analysis is focuses on opinions which express positive or negative sentiments. Helping you with simple and awesome visualization for data analysis.
-							<img src="images/dataChart-img.png" class="img-responsive" alt="home img">
-						</div>
-						<div class="col-md-1"></div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- end home -->
+<!-- start feature -->
+<section id="feature">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 wow fadeInLeft" data-wow-delay="0.6s">
+                <h2 class="text-uppercase">Our Software Features</h2>
 
-		<!-- start feature -->
-		<section id="feature">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 wow fadeInLeft" data-wow-delay="0.6s">
-						<h2 class="text-uppercase">Our Software Features</h2>
-						<p>Our software has many features which help you understand your data fast and simply.</p>
-						<p><span><i class="fa fa-quote-left"></i></span> Using more than one classifier gives you good accuracy and low error rate for you output.</p>
-						<p><span><i class="fa fa-quote-left"></i></span> Visulaized Results give you good , fast and easy understand for your output.</p>
-					</div>
-					<div class="col-md-6 wow fadeInRight" data-wow-delay="0.6s">
-						<img src="images/feature-img.png" class="img-responsive" alt="feature img">
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- end feature -->
+                <p>Our software has many features which help you understand your data fast and simply.</p>
 
-		<!-- start feature1 -->
-		<section id="feature1">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 wow fadeInLeft" data-wow-delay="0.6s">
-						<img src="images/feature2-img.jpg" class="img-responsive" alt="feature img">
-					</div>
-					<div class="col-md-6 wow fadeInRight" data-wow-delay="0.6s">
-						<h2 class="text-uppercase">More of Features</h2>
-						<p >There are more of features for our software which related with the type and form of the input data.</p>
-						<p><span><i class="fa fa-quote-left"></i></span>Our Software can deal with all forms of Arabic Writing like Modern Standard Arabic(MSA),Dialectal Arabic(DA) and Franco-Arabic.
+                <p><span><i class="fa fa-quote-left"></i></span> Using more than one classifier gives you good accuracy
+                    and low error rate for you output.</p>
 
-						<p><span><i class="fa fa-quote-left"></i></span>You can enter your inpute by many ways: </p>
-						<div>
-							<span><li class="fa fa-spinner"></li></span>insert sentence manually and classify it.	
-						</div>
-						<div>
-							<span><li class="fa fa-spinner"></li></span> upload data as txt file.
-						</div>
-						<div>
-							<span><li class="fa fa-spinner"></li></span> collect data from facebook page OR specify post Link.
-						</div>
-						
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- end feature1 -->
+                <p><span><i class="fa fa-quote-left"></i></span> Visulaized Results give you good , fast and easy
+                    understand for your output.</p>
+            </div>
+            <div class="col-md-6 wow fadeInRight" data-wow-delay="0.6s">
+                <img src="{% static 'images/feature-img.png' %}" class="img-responsive" alt="feature img">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end feature -->
 
-		<!-- start Try it -->
-		<section id="pricing">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 wow bounceIn">
-						<h2 class="text-uppercase">Try it</h2>
-					</div>
-					<div class="col-md-4 wow fadeIn" data-wow-delay="0.6s">
-						<div class="pricing text-uppercase">
-							<div class="pricing-title">
-								<h4>insert sentence manually</h4>
-							</div>
-							<ul>
-								<li>
-									<div class="col-md-12">
-										<div class="input-group">
-	      									<input type="text" class="form-control" placeholder="insert sentence...">
-	      								</div>										
-									</div>
+<!-- start feature1 -->
+<section id="feature1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 wow fadeInLeft" data-wow-delay="0.6s">
+                <img src="{% static 'images/feature2-img.jpg' %}" class="img-responsive" alt="feature img">
+            </div>
+            <div class="col-md-6 wow fadeInRight" data-wow-delay="0.6s">
+                <h2 class="text-uppercase">More of Features</h2>
 
-  							    </li>
-							</ul>
+                <p>There are more of features for our software which related with the type and form of the input
+                    data.</p>
+
+                <p><span><i class="fa fa-quote-left"></i></span>Our Software can deal with all forms of Arabic Writing
+                    like Modern Standard Arabic(MSA),Dialectal Arabic(DA) and Franco-Arabic.
+
+                <p><span><i class="fa fa-quote-left"></i></span>You can enter your inpute by many ways: </p>
+
+                <div>
+                    <span><li class="fa fa-spinner"></li></span>insert sentence manually and classify it.
+                </div>
+                <div>
+                    <span><li class="fa fa-spinner"></li></span> upload data as txt file.
+                </div>
+                <div>
+                    <span><li class="fa fa-spinner"></li></span> collect data from facebook page OR specify post Link.
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end feature1 -->
+
+<!-- start Try it -->
+<section id="pricing">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 wow bounceIn">
+                <h2 class="text-uppercase">Try it</h2>
+            </div>
+            <div class="col-md-4 wow fadeIn" data-wow-delay="0.6s">
+                <div class="pricing text-uppercase">
+                    <div class="pricing-title">
+                        <h4>insert sentence manually</h4>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="col-md-12">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="insert sentence...">
+                                </div>
+                            </div>
+
+                        </li>
+                    </ul>
 							 <span class="input-group-btn">
 						        <button class="btn btn-default" type="button">Classify</button>
 						     </span>
-						</div>
-					</div>
-					<div class="col-md-4 wow fadeIn" data-wow-delay="0.6s">
-						<div class="pricing active text-uppercase">
-							<div class="pricing-title">
-								<h4>upload data as txt file</h4>
-							</div>
-							<ul>
-								<li>
-									<div class="col-md-12">
-							            <div class="input-group">
-							            	<input type="text" class="form-control col-md-8" readonly>
+                </div>
+            </div>
+            <div class="col-md-4 wow fadeIn" data-wow-delay="0.6s">
+                <div class="pricing active text-uppercase">
+                    <div class="pricing-title">
+                        <h4>upload data as txt file</h4>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="col-md-12">
+                                <div class="input-group">
+                                    <input type="text" class="form-control col-md-8" readonly>
 
 							                <span class="input-group-btn col-md-4">
 							                    <span class="btn btn-primary btn-file">
 							                        Add File &hellip; <input type="file" multiple>
 							                    </span>
 							                </span>
-							                
-							            </div>
-							        </div>
-								</li>
-								<li>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li>
 									<span class="input-group-btn">
 						        <button class="btn btn-default" type="button">Classify</button>
 						     </span>
-								</li>
-							</ul>
+                        </li>
+                    </ul>
 
-							
-						</div>
-					</div>
-					<div class="col-md-4 wow fadeIn" data-wow-delay="0.6s">
-						<div class="pricing text-uppercase">
-							<div class="pricing-title">
-								<h4>Collect data from facebook</h4>
-							</div>
-							<ul>
-								<li>
-									<div class="col-md-12">
-										<div class="input-group">
-	      									<input type="text" class="form-control" placeholder="insert post link ...">
-	      								</div>										
-									</div>
 
-  							    </li>
-							</ul>
+                </div>
+            </div>
+            <div class="col-md-4 wow fadeIn" data-wow-delay="0.6s">
+                <div class="pricing text-uppercase">
+                    <div class="pricing-title">
+                        <h4>Collect data from facebook</h4>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="col-md-12">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="insert post link ...">
+                                </div>
+                            </div>
+
+                        </li>
+                    </ul>
 							 <span class="input-group-btn">
 						        <button class="btn btn-default" type="button">Classify</button>
 						     </span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- end try it -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end try it -->
 
-		<!-- start about -->
-		 <section id="about">
-            <div class="container">
-            	<div class="row">
-					<div class="col-md-12 wow bounceIn">
-						<h2 class="text-uppercase"> About Us</h2>
-					</div>
+<!-- start about -->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 wow bounceIn">
+                <h2 class="text-uppercase"> About Us</h2>
+            </div>
 
-					<div class="col-md-3 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
-						<img src="images/member-img.jpg" class="img-responsive" alt="member img">
-						<h3 class="text-uppercase">Mahmoud Elgayyar</h3>
-						 <h5> Professor at Faculty of computer and infromatics Seuz Canal University</h5>
-              			 <h5>Position: Manager</h5>
-              			 <h5>contact: <a href="#" onclick="return false;">here</a></h5>
-					</div>
+            <div class="col-md-3 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
+                <img src="{% static 'images/member-img.jpg' %}" class="img-responsive" alt="member img">
 
-					<div class="col-md-3 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
-						<img src="images/member-img.jpg" class="img-responsive" alt="member img">
-						<h3 class="text-uppercase">Sara El Sayed</h3>
-						 <h5>Faculty: Seuz Canal University </h5>
-              			 <h5>Position: Software Developer</h5>
-              			 <h5>contact: <a href="#" onclick="return false;">here</a></h5>
-					</div>
+                <h3 class="text-uppercase">Mahmoud Elgayyar</h3>
+                <h5> Professor at Faculty of computer and infromatics Seuz Canal University</h5>
+                <h5>Position: Manager</h5>
+                <h5>contact: <a href="#" onclick="return false;">here</a></h5>
+            </div>
 
-					<div class="col-md-3 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
-						<img src="images/member-img.jpg" class="img-responsive" alt="member img">
-						<h3 class="text-uppercase">Ahmed Magdy</h3>
-						 <h5>Faculty: Seuz Canal University </h5>
-              			 <h5>Position: Software Developer</h5>
-              			<h5>contact: <a href="#" onclick="return false;">here</a></h5>
-					</div>
+            <div class="col-md-3 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
+                <img src="{% static 'images/member-img.jpg' %}" class="img-responsive" alt="member img">
 
-					<div class="col-md-3 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
-						<img src="images/member-img.jpg" class="img-responsive" alt="member img">
-						<h3 class="text-uppercase">Amany Samy</h3>
-						  <h5>Faculty: Seuz Canal University </h5>
-              			 <h5>Position: Software Developer</h5>
-              			 <h5>contact: <a href="#" onclick="return false;">here</a></h5>
-					</div>
+                <h3 class="text-uppercase">Sara El Sayed</h3>
+                <h5>Faculty: Seuz Canal University </h5>
+                <h5>Position: Software Developer</h5>
+                <h5>contact: <a href="#" onclick="return false;">here</a></h5>
+            </div>
 
-					<div class="col-md-3 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
-						<img src="images/member-img.jpg" class="img-responsive" alt="member img">
-						<h3 class="text-uppercase">Mohamed Taha</h3>
-						  <h5>Faculty: Seuz Canal University </h5>
-              			 <h5>Position: Software Developer</h5>
-              			<h5>contact: <a href="#" onclick="return false;">here</a></h5>
-					</div>
+            <div class="col-md-3 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
+                <img src="{% static 'images/member-img.jpg' %}" class="img-responsive" alt="member img">
 
-					<div class="col-md-3 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
-						<img src="images/member-img.jpg" class="img-responsive" alt="member img">
-						<h3 class="text-uppercase">Eman Kamal</h3>
-						  <h5>Faculty: Seuz Canal University </h5>
-              			 <h5>Position: Software Developer</h5>
-              			 <h5>contact: <a href="#" onclick="return false;">here</a></h5>
-					</div>
+                <h3 class="text-uppercase">Ahmed Magdy</h3>
+                <h5>Faculty: Seuz Canal University </h5>
+                <h5>Position: Software Developer</h5>
+                <h5>contact: <a href="#" onclick="return false;">here</a></h5>
+            </div>
 
-					<div class="col-md-3 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
-						<img src="images/member-img.jpg" class="img-responsive" alt="member img">
-						<h3 class="text-uppercase">Mahmoud Ahmed</h3>
-						  <h5>Faculty: Seuz Canal University </h5>
-              			 <h5>Position: Software Developer</h5>
-              			 <h5>contact: <a href="#" onclick="return false;">here</a></h5>
-					</div>
+            <div class="col-md-3 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
+                <img src="{% static 'images/member-img.jpg' %}" class="img-responsive" alt="member img">
 
-					<div class="col-md-3 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
-						<img src="images/member-img.jpg" class="img-responsive" alt="member img">
-						<h3 class="text-uppercase">Maha El-rayss</h3>
-						  <h5>Faculty: Seuz Canal University </h5>
-              			 <h5>Position: Software Developer</h5>
-              			 <h5>contact: <a href="#" onclick="return false;">here</a></h5>
-					</div>
+                <h3 class="text-uppercase">Amany Samy</h3>
+                <h5>Faculty: Seuz Canal University </h5>
+                <h5>Position: Software Developer</h5>
+                <h5>contact: <a href="#" onclick="return false;">here</a></h5>
+            </div>
 
-					<div class="col-md-3 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
-						<img src="images/member-img.jpg" class="img-responsive" alt="member img">
-						<h3 class="text-uppercase">Ahmed Shalash</h3>
-						  <h5>Faculty: Seuz Canal University </h5>
-              			 <h5>Position: Software Developer</h5>
-              			 <h5>contact: <a href="#" onclick="return false;">here</a></h5>
-					</div>
+            <div class="col-md-3 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
+                <img src="{% static 'images/member-img.jpg' %}" class="img-responsive" alt="member img">
 
-					<div class="col-md-3 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
-						<img src="images/member-img.jpg" class="img-responsive" alt="member img">
-						<h3 class="text-uppercase">Eman Mostafa</h3>
-						  <h5>Faculty: Seuz Canal University </h5>
-              			 <h5>Position: Software Developer</h5>
-              			 <h5>contact: <a href="#" onclick="return false;">here</a></h5>
-					</div>
+                <h3 class="text-uppercase">Mohamed Taha</h3>
+                <h5>Faculty: Seuz Canal University </h5>
+                <h5>Position: Software Developer</h5>
+                <h5>contact: <a href="#" onclick="return false;">here</a></h5>
+            </div>
 
-					<div class="col-md-3 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
-						<img src="images/member-img.jpg" class="img-responsive" alt="member img">
-						<h3 class="text-uppercase">Mohamed Sabri</h3>
-						  <h5>Faculty: Seuz Canal University </h5>
-              			 <h5>Position: Software Developer</h5>
-              			 <h5>contact: <a href="#" onclick="return false;">here</a></h5>
-					</div>
-				</div>
-			</div>
-		</div>
-        </section>
+            <div class="col-md-3 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
+                <img src="{% static 'images/member-img.jpg' %}" class="img-responsive" alt="member img">
 
-		<!-- end about -->
+                <h3 class="text-uppercase">Eman Kamal</h3>
+                <h5>Faculty: Seuz Canal University </h5>
+                <h5>Position: Software Developer</h5>
+                <h5>contact: <a href="#" onclick="return false;">here</a></h5>
+            </div>
 
-		<!-- start contact -->
-		<section id="contact">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-							<h2 class="text-uppercase">Contact Us</h2>
-							<p>please complete the form for sponsorships or other requests.</p>
-							<address>
-								<p><i class="fa fa-map-marker"></i>1234 Street Name, City Name, United States</p>
-								<p><i class="fa fa-phone"></i> 0992 234234 / 0234 234234</p>
-								<p><i class="fa fa-envelope-o"></i>SentimentArabicSocial@gmail.com</p>
-							</address>
-						</div>
-						<div class="col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-							<div class="contact-form">
-								<form action="#" method="post">
-									<div class="col-md-6">
-										<input type="text" class="form-control" placeholder="Name">
-									</div>
-									<div class="col-md-6">
-										<input type="email" class="form-control" placeholder="Email">
-									</div>
-									<div class="col-md-12">
-										<input type="text" class="form-control" placeholder="Subject">
-									</div>
-									<div class="col-md-12">
-										<textarea class="form-control" placeholder="Message" rows="4"></textarea>
-									</div>
-									<div class="col-md-8">
-										<input type="submit" class="form-control text-uppercase" value="Send">
-									</div>
-								</form>
-							</div>
-						</div>
-					</div>
-			</div>
-		</section>
-		<!-- end contact -->
+            <div class="col-md-3 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
+                <img src="{% static 'images/member-img.jpg' %}" class="img-responsive" alt="member img">
 
-		<!-- start footer -->
-		<footer>
-			<div class="container">
-				<div class="row">
-					<p>Copyright © 2015 Arabic Social Media Sentiment Analysis</p>
-				</div>
-			</div>
-		</footer>
-		<!-- end footer -->
-		<script src="js/jquery.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/wow.min.js"></script>
-		<script src="js/jquery.singlePageNav.min.js"></script>
-		<script src="js/custom.js"></script>
-		<script src="js/extrajs.js"></script>
-	</body>
+                <h3 class="text-uppercase">Mahmoud Ahmed</h3>
+                <h5>Faculty: Seuz Canal University </h5>
+                <h5>Position: Software Developer</h5>
+                <h5>contact: <a href="#" onclick="return false;">here</a></h5>
+            </div>
+
+            <div class="col-md-3 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
+                <img src="{% static 'images/member-img.jpg' %}" class="img-responsive" alt="member img">
+
+                <h3 class="text-uppercase">Maha El-rayss</h3>
+                <h5>Faculty: Seuz Canal University </h5>
+                <h5>Position: Software Developer</h5>
+                <h5>contact: <a href="#" onclick="return false;">here</a></h5>
+            </div>
+
+            <div class="col-md-3 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
+                <img src="{% static 'images/member-img.jpg' %}" class="img-responsive" alt="member img">
+
+                <h3 class="text-uppercase">Ahmed Shalash</h3>
+                <h5>Faculty: Seuz Canal University </h5>
+                <h5>Position: Software Developer</h5>
+                <h5>contact: <a href="#" onclick="return false;">here</a></h5>
+            </div>
+
+            <div class="col-md-3 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
+                <img src="{% static 'images/member-img.jpg' %}" class="img-responsive" alt="member img">
+
+                <h3 class="text-uppercase">Eman Mostafa</h3>
+                <h5>Faculty: Seuz Canal University </h5>
+                <h5>Position: Software Developer</h5>
+                <h5>contact: <a href="#" onclick="return false;">here</a></h5>
+            </div>
+
+            <div class="col-md-3 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
+                <img src="{% static 'images/member-img.jpg' %}" class="img-responsive" alt="member img">
+
+                <h3 class="text-uppercase">Mohamed Sabri</h3>
+                <h5>Faculty: Seuz Canal University </h5>
+                <h5>Position: Software Developer</h5>
+                <h5>contact: <a href="#" onclick="return false;">here</a></h5>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!-- end about -->
+
+<!-- start contact -->
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                <h2 class="text-uppercase">Contact Us</h2>
+
+                <p>please complete the form for sponsorships or other requests.</p>
+                <address>
+                    <p><i class="fa fa-map-marker"></i>1234 Street Name, City Name, United States</p>
+
+                    <p><i class="fa fa-phone"></i> 0992 234234 / 0234 234234</p>
+
+                    <p><i class="fa fa-envelope-o"></i>SentimentArabicSocial@gmail.com</p>
+                </address>
+            </div>
+            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="contact-form">
+                    <form action="#" method="post">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" placeholder="Subject">
+                        </div>
+                        <div class="col-md-12">
+                            <textarea class="form-control" placeholder="Message" rows="4"></textarea>
+                        </div>
+                        <div class="col-md-8">
+                            <input type="submit" class="form-control text-uppercase" value="Send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end contact -->
+
+<!-- start footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <p>Copyright © 2015 Arabic Social Media Sentiment Analysis</p>
+        </div>
+    </div>
+</footer>
+<!-- end footer -->
+{% load_scripts %}
+</body>
 </html>
