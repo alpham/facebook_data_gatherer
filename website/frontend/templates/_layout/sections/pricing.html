@@ -9,19 +9,26 @@
                     <div class="pricing-title">
                         <h4>insert sentence manually</h4>
                     </div>
-                    <ul>
-                        <li>
-                            <div class="col-md-12">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="insert sentence..." id="sentenc-input">
-                                </div>
-                            </div>
+                    <form id="sentence-form" action="{% url 'classify:sentence' %}" method="post">
 
-                        </li>
-                    </ul>
+                        <ul>
+                            <li>
+                                <div class="col-md-12">
+                                    <div class="input-group">
+                                        {% csrf_token %}
+                                        <input type="text" name="sentence" class="form-control"
+                                               placeholder="insert sentence..."
+                                               id="sentenc-input">
+                                    </div>
+                                </div>
+
+                            </li>
+                        </ul>
 							 <span class="input-group-btn">
-						        <button class="btn btn-default" type="button" id="sentence-button">Classify</button>
+						        <button class="btn btn-default" type="submit" id="sentence-button">Classify</button>
 						     </span>
+                    </form>
+
                 </div>
             </div>
             <div class="col-md-4 wow fadeIn" data-wow-delay="0.6s">
@@ -29,27 +36,36 @@
                     <div class="pricing-title">
                         <h4>upload data as txt file</h4>
                     </div>
-                    <ul>
-                        <li>
-                            <div class="col-md-12">
-                                <div class="input-group">
-                                    {#                                    <input type="text" class="form-control col-md-8" readonly>#}
+                    <form id="file-form" action="{% url 'classify:file' %}"
+                          method="post" enctype="multipart/form-data">
+                        <ul>
+                            <li>
+                                <div class="col-md-12">
+                                    <div class="input-group">
+                                        {#                                    <input type="text" class="form-control col-md-8" readonly>#}
 
 							                <span class="input-group-btn col-md-4">
 							                    <span class="btn btn-primary btn-file">
-							                        Add File &hellip; <input type="file" multiple id="file-input">
+							                        Add File &hellip;
+
+                                                    {% csrf_token %}
+                                                        <input
+                                                                name="file"
+                                                                type="file"
+                                                                id="file-input">
 							                    </span>
 							                </span>
 
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
+                            </li>
+                            <li>
 									<span class="input-group-btn">
-						        <button class="btn btn-default" type="button" id="file-button">Classify</button>
+						        <button class="btn btn-default" type="submit">Classify</button>
 						     </span>
-                        </li>
-                    </ul>
+                            </li>
+                        </ul>
+                    </form>
 
 
                 </div>
@@ -59,19 +75,25 @@
                     <div class="pricing-title">
                         <h4>Collect data from facebook</h4>
                     </div>
-                    <ul>
-                        <li>
-                            <div class="col-md-12">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="insert post link ..." id="post-url-input">
-                                </div>
-                            </div>
+                    <form id="post-form" action="{% url 'classify:post' %}" method="post">
 
-                        </li>
-                    </ul>
+                        <ul>
+                            <li>
+                                <div class="col-md-12">
+                                    <div class="input-group">
+                                        {% csrf_token %}
+                                        <input type="text" class="form-control" placeholder="insert post link ..."
+                                               id="post-url-input" name="post_url">
+                                    </div>
+                                </div>
+
+                            </li>
+                        </ul>
 							 <span class="input-group-btn">
-						        <button class="btn btn-default" type="button" id="post-url-button">Classify</button>
+						        <button class="btn btn-default" type="submit" id="post-url-button">Classify</button>
 						     </span>
+                    </form>
+
                 </div>
             </div>
         </div>
