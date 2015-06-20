@@ -1,0 +1,71 @@
+{% load static %}
+{% load frontend_layout %}
+<!DOCTYPE html>
+<html lang="en">
+{% layout_head %}
+
+<body>
+<!-- start preloader -->
+<div class="preloader">
+    <div class="sk-spinner sk-spinner-rotating-plane"></div>
+</div>
+<!-- end preloader -->
+<!-- start navigation -->
+<nav class="navbar navbar-default navbar-fixed-top templatemo-nav" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon icon-bar"></span>
+                <span class="icon icon-bar"></span>
+                <span class="icon icon-bar"></span>
+            </button>
+            <img src="{% static 'images/LOGO.jpg' %}" class="img-responsive" alt="member img">
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right text-uppercase">
+                {% block navitems %}
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#feature">Features</a></li>
+                    <li><a href="#pricing">Demo</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                {% endblock %}
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- end navigation -->
+{% block sections %}
+    <!-- start home -->
+    {% section_home %}
+    <!-- end home -->
+    {% section_feature %}
+    <!-- start feature -->
+
+    <!-- end feature -->
+
+    <!-- start feature1 -->
+    {% section_feature_1 %}
+    <!-- end feature1 -->
+
+    <!-- start Try it -->
+    {% section_pricing %}
+    <!-- end try it -->
+
+    <!-- start about -->
+    {% section_about %}
+    <!-- end about -->
+
+    <!-- start contact -->
+    {% section_contact %}
+    <!-- end contact -->
+
+    <!-- start footer -->
+    {% layout_footer %}
+    <!-- end footer -->
+    {% load_scripts %}
+{% endblock %}
+</body>
+
+</html>
