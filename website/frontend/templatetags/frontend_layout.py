@@ -18,6 +18,9 @@ def load_scripts():
     return {}
 
 
+@register.inclusion_tag('_layout/sections/home.html')
+def section_home():
+    return {}
 
 
 @register.inclusion_tag('_layout/sections/contact.html')
@@ -25,16 +28,23 @@ def section_contact():
     return {}
 
 
+@register.inclusion_tag('_layout/sections/about.html')
+def section_about():
+    return {}
 
 
+@register.inclusion_tag('_layout/sections/pricing.html')
+def section_pricing():
+    return {}
 
 
-#
+@register.inclusion_tag('_layout/sections/feature_1.html')
+def section_feature_1():
+    return {}
 
-# @register.inclusion_tag('base/frontend/layouts/layout_sidebar.html', takes_context=True)
-# def layout_sidebar(context):
-#     return {'user': context.get('user')}
-#
-# @register.inclusion_tag('base/frontend/layouts/layout_footer.html', takes_context=True)
-# def layout_footer(context):
-#     return {'user': context.get('user')}
+
+@register.inclusion_tag('_layout/sections/feature.html')
+def section_feature():
+    return {}
+
+
