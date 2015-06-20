@@ -60,7 +60,7 @@ class get_post_info(DRIVERX):
 """
 data = {}
 with get_post_info() as x:
-    data = x.get_post_data_from_url('https://www.facebook.com/DayTalk/posts/840863529296774')
+    data = x.get_post_data_from_url('https://www.facebook.com/coeygpt/posts/395532620648228')
 
 print(data.get('post'))
 
